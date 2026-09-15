@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Jump Rush: YouTuber Hunt – ein schnelles Browser-Parkour-Spiel. Springe, sammle Charaktere, verdiene Coins und werde stärker.">
+<title>Jump Rush: YouTuber Hunt</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;min-height:100%;font-family:Arial,Helvetica,sans-serif;background:#07111f;color:#fff}
+body{background:radial-gradient(circle at 50% -10%,#183c63 0,#07111f 48%,#040a12 100%)}
+header{position:sticky;top:0;z-index:10;background:#07111fe8;border-bottom:1px solid #ffffff14;backdrop-filter:blur(12px)}
+.nav{max-width:1100px;margin:auto;padding:14px 20px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-size:20px;font-weight:1000}.logo span{color:#42e89a}
+.nav a{color:#fff;text-decoration:none;margin-left:18px;font-weight:700;font-size:14px}
+.hero{max-width:1100px;margin:auto;padding:70px 20px 42px;text-align:center}
+.badge{display:inline-block;padding:7px 11px;border:1px solid #42e89a55;border-radius:999px;background:#42e89a12;color:#75f3b5;font-weight:800;font-size:13px}
+h1{font-size:clamp(42px,8vw,82px);line-height:.92;margin:20px 0 14px;letter-spacing:-4px}
+.hero p{max-width:650px;margin:0 auto 25px;color:#b8c7d9;font-size:18px;line-height:1.5}
+.cta{display:inline-block;padding:14px 22px;border-radius:14px;background:#42e89a;color:#061017;text-decoration:none;font-weight:1000;box-shadow:0 12px 35px #42e89a22}
+.card{max-width:1100px;margin:20px auto 60px;padding:0 20px}
+.game-wrap{border:1px solid #ffffff1c;border-radius:24px;overflow:hidden;background:#050b13;box-shadow:0 25px 90px #0009}
+.game-wrap iframe{display:block;width:100%;height:min(72vh,720px);border:0}
+.info{max-width:1100px;margin:0 auto 70px;padding:0 20px;display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.info article{padding:22px;border-radius:18px;background:#0d1d30;border:1px solid #ffffff12}
+.info h2{margin:0 0 8px;font-size:18px}.info p{margin:0;color:#aebdd0;line-height:1.5}
+footer{text-align:center;padding:25px;color:#718197;border-top:1px solid #ffffff10;font-size:13px}
+@media(max-width:700px){.nav a{display:none}.hero{padding-top:48px}.info{grid-template-columns:1fr}.game-wrap{border-radius:16px}.game-wrap iframe{height:70vh}}
+</style>
+</head>
+<body>
+<header><div class="nav"><div class="logo">⚡ Jump <span>Rush</span></div><nav><a href="#game">Spielen</a><a href="#how">So geht's</a></nav></div></header>
+<main>
+<section class="hero">
+<div class="badge">🎮 SPIELBAR IM BROWSER</div>
+<h1>JUMP<br><span style="color:#42e89a">RUSH</span></h1>
+<p>Springe durch den Parkour, sammle seltene Charaktere, bring sie sicher zur Base und verdiene Coins für deine nächsten Upgrades.</p>
+<a class="cta" href="#game">Jetzt spielen ↓</a>
+</section>
+<section class="card" id="game"><div class="game-wrap"><iframe src="game.html" title="Jump Rush: YouTuber Hunt"></iframe></div></section>
+<section class="info" id="how">
+<article><h2>🏃 Springen</h2><p>Bewege dich durch den Parkour und überwinde Hindernisse. Je weiter du kommst, desto besser werden die Belohnungen.</p></article>
+<article><h2>⭐ Sammeln</h2><p>Finde Common-, Rare-, Epic- und Legendary-Charaktere und nimm sie mit zur Base.</p></article>
+<article><h2>🪙 Upgraden</h2><p>Verdiene Coins und verbessere deine Geschwindigkeit und Sprungkraft für immer schwierigere Runs.</p></article>
+</section>
+</main>
+<footer>Jump Rush: YouTuber Hunt · Browser Game Prototype</footer>
+</body>
+</html>
